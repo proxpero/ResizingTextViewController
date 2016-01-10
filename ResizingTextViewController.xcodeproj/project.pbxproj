@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528BEB4C1C42298100CE6E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEB4B1C42298100CE6E57 /* AppDelegate.swift */; };
+		528BEB501C42298100CE6E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528BEB4F1C42298100CE6E57 /* Assets.xcassets */; };
+		528BEB5C1C4229CD00CE6E57 /* ResizingTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEB5A1C4229CD00CE6E57 /* ResizingTextViewController.swift */; };
+		528BEB5D1C4229CD00CE6E57 /* String+Resizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEB5B1C4229CD00CE6E57 /* String+Resizing.swift */; };
+		528BEB5F1C4229DB00CE6E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528BEB5E1C4229DB00CE6E57 /* Main.storyboard */; };
+		528BEB611C422A2A00CE6E57 /* NonScrollingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BEB601C422A2A00CE6E57 /* NonScrollingScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		528BEB481C42298100CE6E57 /* ResizingTextViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizingTextViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528BEB4B1C42298100CE6E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		528BEB4F1C42298100CE6E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528BEB541C42298100CE6E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528BEB5A1C4229CD00CE6E57 /* ResizingTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizingTextViewController.swift; sourceTree = "<group>"; };
+		528BEB5B1C4229CD00CE6E57 /* String+Resizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Resizing.swift"; sourceTree = "<group>"; };
+		528BEB5E1C4229DB00CE6E57 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		528BEB601C422A2A00CE6E57 /* NonScrollingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonScrollingScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528BEB451C42298100CE6E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528BEB3F1C42298100CE6E57 = {
+			isa = PBXGroup;
+			children = (
+				528BEB4A1C42298100CE6E57 /* ResizingTextViewController */,
+				528BEB491C42298100CE6E57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528BEB491C42298100CE6E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528BEB481C42298100CE6E57 /* ResizingTextViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528BEB4A1C42298100CE6E57 /* ResizingTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				528BEB4B1C42298100CE6E57 /* AppDelegate.swift */,
+				528BEB5A1C4229CD00CE6E57 /* ResizingTextViewController.swift */,
+				528BEB5B1C4229CD00CE6E57 /* String+Resizing.swift */,
+				528BEB601C422A2A00CE6E57 /* NonScrollingScrollView.swift */,
+				528BEB4F1C42298100CE6E57 /* Assets.xcassets */,
+				528BEB5E1C4229DB00CE6E57 /* Main.storyboard */,
+				528BEB541C42298100CE6E57 /* Info.plist */,
+			);
+			path = ResizingTextViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528BEB471C42298100CE6E57 /* ResizingTextViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528BEB571C42298100CE6E57 /* Build configuration list for PBXNativeTarget "ResizingTextViewController" */;
+			buildPhases = (
+				528BEB441C42298100CE6E57 /* Sources */,
+				528BEB451C42298100CE6E57 /* Frameworks */,
+				528BEB461C42298100CE6E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizingTextViewController;
+			productName = ResizingTextViewController;
+			productReference = 528BEB481C42298100CE6E57 /* ResizingTextViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528BEB401C42298100CE6E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = proxpero;
+				TargetAttributes = {
+					528BEB471C42298100CE6E57 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 528BEB431C42298100CE6E57 /* Build configuration list for PBXProject "ResizingTextViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 528BEB3F1C42298100CE6E57;
+			productRefGroup = 528BEB491C42298100CE6E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528BEB471C42298100CE6E57 /* ResizingTextViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528BEB461C42298100CE6E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528BEB501C42298100CE6E57 /* Assets.xcassets in Resources */,
+				528BEB5F1C4229DB00CE6E57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528BEB441C42298100CE6E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528BEB5C1C4229CD00CE6E57 /* ResizingTextViewController.swift in Sources */,
+				528BEB611C422A2A00CE6E57 /* NonScrollingScrollView.swift in Sources */,
+				528BEB5D1C4229CD00CE6E57 /* String+Resizing.swift in Sources */,
+				528BEB4C1C42298100CE6E57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		528BEB551C42298100CE6E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		528BEB561C42298100CE6E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		528BEB581C42298100CE6E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResizingTextViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.ResizingTextViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		528BEB591C42298100CE6E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResizingTextViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.ResizingTextViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528BEB431C42298100CE6E57 /* Build configuration list for PBXProject "ResizingTextViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528BEB551C42298100CE6E57 /* Debug */,
+				528BEB561C42298100CE6E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528BEB571C42298100CE6E57 /* Build configuration list for PBXNativeTarget "ResizingTextViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528BEB581C42298100CE6E57 /* Debug */,
+				528BEB591C42298100CE6E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528BEB401C42298100CE6E57 /* Project object */;
+}
